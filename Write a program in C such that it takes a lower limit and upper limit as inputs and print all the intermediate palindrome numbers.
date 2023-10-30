@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main(){
+    int num1,num2,rev,ori,i,n;
+    scanf("%d",&num1);
+    scanf("%d",&num2);
+    for(i=num1;i<=num2;i++){
+        rev=0;
+        n = i;
+        while(n>0){
+         ori=i %10;
+         rev = rev*10 +ori;
+         n=n/10;
+        }
+        if(rev == i){
+            printf("%d\t",i);
+        }
+    }
+}
