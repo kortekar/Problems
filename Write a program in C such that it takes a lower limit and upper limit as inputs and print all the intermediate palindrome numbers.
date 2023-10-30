@@ -1,3 +1,5 @@
+//Write a program in C such that it takes a lower limit and upper limit as inputs and print all the intermediate palindrome numbers.
+
 #include<stdio.h>
 void main(){
     int num1,num2,rev,ori,i,n;
