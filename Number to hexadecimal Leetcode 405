@@ -1,0 +1,27 @@
+var toHex = function(num) {
+        if (num === 0) {
+        return "0";
+    }
+
+    if (num < 0) {
+        num = 0xFFFFFFFF + num + 1;
+    }
+
+    let binary = "";
+    while (num > 0) {
+        binary = (num % 2) + binary;
+        num = Math.floor(num / 2);
+    }
+
+    while (binary.length % 4 !== 0) {
+        binary = "0" + binary;
+    }
+
+    let result = "";
+    for (let i = 0; i < binary.length; i += 4) {
+        let chunk = binary.slice(i, i + 4);
+        result += parseInt(chunk, 2).toString(16);
+    }
+
+    return result;
+};
