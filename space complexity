@@ -1,0 +1,24 @@
+Question 1:-
+You have an array of n integers. What is the space complexity of storing this array in memory?
+O(n) ✔
+O(1)
+O(Log n)
+O(n^2)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Question 2:-
+You have a 2D array of size m x n. What is the space complexity of storing this 2D array in memory?
+O(n)
+O(m)
+O(mn)   ✔
+O(n^2)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Question 3:-
+You have a string of length n. What is the space complexity of storing this string in memory?
+
+O(1)
+O(N Log N)
+O(N)  ✔
+O(N^2)
