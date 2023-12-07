@@ -5,5 +5,5 @@ Feel free to explore the folders and files to access the solutions.
 
 **Note: Most of the solutions in this repository are implemented in JavaScript  ( All Leetcode problems are in Javascript only )**
 
-<font color="red">Happy coding!</font>
+*Happy coding!*
 
