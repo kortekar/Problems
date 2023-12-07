@@ -1,4 +1,4 @@
-# Code Problem Solutions
+# Few Problems and its Solutions 
 
 Welcome to my repository of solved code problems! Here's a quick overview of the folders and files in this repository:
 
